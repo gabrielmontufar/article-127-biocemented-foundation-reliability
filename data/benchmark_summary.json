@@ -1,0 +1,11 @@
+{
+  "n_monte_carlo": 120000,
+  "pf_lifetime": 0.11595833333333333,
+  "beta_lifetime": 1.1954361553852642,
+  "pf_50yr_mc": 0.11595833333333333,
+  "beta_50yr_mc": 1.1954361553852642,
+  "beta_50yr_moment_form": 1.122470113431106,
+  "pf_50yr_moment_form": 0.130831303963178,
+  "parametric_cases": 256,
+  "most_influential_parameter": "phi_m"
+}
