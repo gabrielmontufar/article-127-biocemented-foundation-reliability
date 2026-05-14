@@ -1,0 +1,8 @@
+{
+  "status": "reproduced",
+  "max_absolute_difference_against_reference": {
+    "q_u_bdc_kpa": 2.2737367544323206e-13,
+    "factor_of_safety": 4.440892098500626e-16,
+    "settlement_index": 1.0408340855860843e-16
+  }
+}
