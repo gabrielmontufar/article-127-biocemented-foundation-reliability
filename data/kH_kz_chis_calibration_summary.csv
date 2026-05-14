@@ -1,0 +1,5 @@
+item,calibrated_parameter,calibrated_value,calibration_role,data_used
+synthetic_PLT_depth_series,kH,0.7239348370927319,Controls saturation of treated-depth benefit chi_H,"Synthetic BCR values for H/B = 0.5, 0.75, 1.0, 1.5, and 2.0"
+synthetic_CPT_profile,kz,0.9199248120300751,Controls vertical weighting of CPT-derived improvement profile,Synthetic before-after CPT improvement profile and effective settlement improvement target
+localization_sensitivity,"chi_min, rs",not uniquely calibrated in this synthetic pre-peak example,Bounds localized or brittle mobilization loss through chi_s,Sensitivity envelope because post-peak or localization observations are absent
+baseline_updated_prediction,beta50,-0.816062813851839,Reliability outcome after staged modifier update,kH and kz fits with chi_min = 0.75 and rs = 0.18

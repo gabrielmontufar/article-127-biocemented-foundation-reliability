@@ -1,0 +1,10 @@
+Author/year,Main model or evidence,MICP,Deg./dur.,Shallow fdn.,Reliability,Service life,Closeness,Key distinction from this manuscript
+Bosch et al. 2024,BCHM FEM design model; 2D shallow-foundation strengthening,Yes,Treatment evolution,Yes,No,Process time,High B,"Closest antecedent; lacks pf(t), lifetime reliability, and explicit service degradation discount."
+Muhammad and Jethoo 2026,TBCHM/statistical damage framework for MICP-treated soils,Yes,Progressive damage,No direct footing reliability,No,Long-term language,Medium B,Captures damage but not shallow-foundation service-life reliability.
+Wang and Nackenhorst 2022,Micro-feature BCHM model for MICP,Yes,Time process,No,No,Process time,Medium B,Strong multiphysics model; no footing reliability check.
+Fauriel and Laloui 2012,BCHM model for MICP grouting,Yes,Process evolution,General applications,No,Process time,Medium B,Foundational model; not degradation-aware reliability design.
+Gajo et al. 2015 / Gai and Sanchez 2018,Reactive-bond degradation and MICP constitutive modeling,Partial/Yes,Yes,No,No,No,Medium B,"Threatens broad state-variable novelty, not the integrated footing reliability claim."
+Zhang et al. 2026,BNN uncertainty model for bio-cemented soil strength,Yes,Uncertainty not degradation,No,Strength uncertainty,No,Medium B,"Probabilistic MICP strength tool, not pf(t) for foundations."
+Rawat and Satyam 2024; Valencia-Galindo et al. 2025,Durability and stiffness degradation of MICP-treated soils,Yes,Yes,No,No,Partial,Medium C,Supports degradation concern; no bearing/reliability model.
+Kulkarni et al. 2021,Plate-load bearing-capacity tests on MICP-treated sand,Yes,No,Yes,No,No,Medium C,Footing evidence but no durability or probabilistic service life.
+Savvides and Papadopoulos 2024; Marin and Long 2024,Shallow-foundation reliability and geotechnical deterioration,No,Partial,Yes/No,Yes/asset risk,Partial,Low C,"Relevant methods, but outside MICP-treated shallow foundations."

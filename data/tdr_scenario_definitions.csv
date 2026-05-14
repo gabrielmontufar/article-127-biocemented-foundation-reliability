@@ -1,0 +1,6 @@
+Scenario,Environmental history,Loading history,Reliability framework,Synthetic or data-based,Purpose
+T,monotonic exponential degradation,stationary service demand,terminal and first-passage equivalence,synthetic methodological benchmark,verify reduced monotonic benchmark
+O,exposure pulses with partial recovery,temporary service-load pulses,first-passage/outcrossing,synthetic methodological benchmark,show pf_life can exceed pf(T)
+H,event blocks,event blocks,discrete hazard,synthetic methodological benchmark,"estimate h_j, S(t), and cumulative failure"
+M,"Markov states: mild, wetting_drying, chemical_pulse, flushing, mitigated",state-conditioned demand,Markov environmental reliability,synthetic methodological benchmark,demonstrate state-transition exposure modeling
+S,autocorrelated degradation multiplier,seasonal and random event demand,stochastic-process reliability,synthetic methodological benchmark,simulate random time-correlated margin paths

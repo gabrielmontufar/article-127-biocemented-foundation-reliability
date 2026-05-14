@@ -1,0 +1,7 @@
+evidence,parameters_updated,reliability_role,posterior_output
+CaCO3 content and spatial uniformity,"eta0, treated-zone variability",prior/update for initial cementation credit,posterior eta0 distribution
+"UCS, triaxial, direct shear","cb0, Delta tan phi",separates cohesion-like and friction-like increments,posterior strength-increment distribution
+Vs/UPV/CPT/CPTu,"stiffness, eta persistence, kz",updates stiffness/depth profile,posterior serviceability and depth modifiers
+Plate-load response,"kH, aE, load-settlement curve",updates treated-depth and service response,"posterior qu(t), sI(t) or q-s curve"
+Durability retention / exposure history,"lambda_e, eta_r",updates degradation clock and residual cementation,"posterior beta(t), pf(t), retreatment trigger"
+Monitoring sequence y1:k,all active parameters,sequential recalibration during service life,"pf(t|y1:k), beta(t|y1:k)"

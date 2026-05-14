@@ -1,0 +1,8 @@
+level,meaning,evidence_required,manuscript_status
+V0,internal algebraic consistency,"limits, units, monotonicity, extreme cases",met; limiting cases and bounded decomposition retained
+V1,numerical verification,"Monte Carlo convergence, FOSM comparison, seed-controlled scripts",met; MC/FOSM and convergence files available
+V2,independent model comparison,"limit analysis, FEM/DEM, different implementation","met for screening; open-source limit analysis, OpenSeesPy, and CalculiX audits"
+V3,experimental component validation,"plate/load-settlement, UCS, triaxial, UPV/Vs, durability retention",met at component level using published datasets
+V4,coupled indirect validation,experimental components + virtual degraded footing + hold-out/falsification,"target status; V4-level architecture, not direct footing validation"
+V5,direct physical degraded-footing validation,plate/footing test on degraded MICP-treated sand,not claimed; no accessible direct degraded-footing test located
+V6,field-scale validation,field footing/plate with service-life exposure,not claimed

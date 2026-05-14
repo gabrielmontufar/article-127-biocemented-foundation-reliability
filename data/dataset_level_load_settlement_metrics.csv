@@ -1,0 +1,5 @@
+Source,Geometry,Role,Treatment,Calibrated parameters,NRMSE,MAPE,qu error (%),SRF error (%),Bias (kPa),Interpretation
+Kulkarni et al. 2021,square 120 mm x 120 mm,calibration,untreated,km=3.266 kPa/mm; qu fixed from Table 6,0.05662445207577287,23.605862419051007,0.0,,0.4087774924038797,Pre-ultimate branch defined by Table 6 qu.
+Kulkarni et al. 2021,square 120 mm x 120 mm,validation,untreated,km=3.266 kPa/mm; qu fixed from Table 6,0.22146197266997494,26.865867508585,0.0,,-8.626102458374563,Pre-ultimate branch defined by Table 6 qu.
+Kulkarni et al. 2021,square 120 mm x 120 mm,calibration,treated,k0=41.223 kPa/mm; aE_equiv=11.622; qu fixed from Table 6,0.08426659056854675,48.1998545151132,0.0,14.006514959634325,2.047899088708378,Pre-ultimate branch defined by Table 6 qu.
+Kulkarni et al. 2021,square 120 mm x 120 mm,validation,treated,k0=41.223 kPa/mm; aE_equiv=11.622; qu fixed from Table 6,0.2049129037168614,24.956936614259178,0.0,14.006514959634325,-36.19731129170569,Pre-ultimate branch defined by Table 6 qu.

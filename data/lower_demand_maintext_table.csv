@@ -1,0 +1,5 @@
+Case,qservice_mean_kpa,qu_deterministic_kpa,FS,pf_U,beta_U,p_service_index_gt_0_045,Interpretation
+Low service-demand illustration,250.0,1253.1193026213614,5.012477210485446,1.6976420269543269e-12,6.9603088453865904,3.814466270568584e-06,Ultimate reliability remains high; serviceability proxy is low.
+Lower-demand service case,500.0,1253.1193026213614,2.506238605242723,3.67630862651569e-05,3.96457712474625,0.06948872597508943,Degradation reduces reserve but does not control ultimate reliability at 50 years.
+Moderate-to-high service case,650.0,1253.1193026213614,1.92787585018671,0.0023226191810891694,2.8306578483339853,0.36478771292554,Reliability margin remains positive but serviceability becomes more relevant.
+High-demand stress test,900.0,1253.1193026213614,1.3923547806904015,0.0771934397892785,1.424205892774702,0.8556008690971384,Stress test exposes sensitivity to permanent initial cementation credit.

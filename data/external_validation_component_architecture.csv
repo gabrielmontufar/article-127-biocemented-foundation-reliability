@@ -1,0 +1,7 @@
+Model component,Required experimental data,Possible source,Validated parameter,Metric,Acceptance criterion
+Initial MICP improvement,PLT/UCS/shear/Vs data,Kulkarni et al. 2021; de Rezende et al. 2022,"cb0, Delta tan phi, eta0","qu error, NRMSE, BCR/SRF ratio",BCR and SRF within published range; no double counting
+Load-settlement response,Digitized PLT curve,Kulkarni et al. 2021,"service stiffness, aE proxy","NRMSE/MAPE, held-out bias",NRMSE <0.25 for held-out screen; qu error near zero when Table 6 is fixed
+Durability retention,UCS/UPV/mass retention vs cycles,Sharma et al. 2021; Rawat and Satyam 2024,"eta_r, lambda_E","RMSE, final-retention error",Calibration error low; validation error flags model-form limits
+Depth mechanism,Independent layered/FEM trend,Limit analysis; OpenSeesPy; CalculiX,"kH, chi_s/capping domain",relative error vs H/B,<10-15% acceptable; 15-25% cap/recalibrate; >25% FEM required
+Reliability decision,M0-M4 model comparison,Supplemental Monte Carlo,"pf, beta, design decision","beta50, pf CI, over-credit risk",M3 must change/justify decision relative to M1/M2
+Identifiability,Parameter update/sensitivity files,Supplemental profiles and LHS ranks,dominant/nonunique parameters,rank correlation/profile likelihood,dominant synthetic parameters require sensitivity or external bounds

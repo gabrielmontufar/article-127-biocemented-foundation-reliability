@@ -1,0 +1,7 @@
+Stage,Data source,Parameters estimated,Parameters fixed,Output checked,Risk if skipped
+1,"CaCO3, Vs, UPV, resistivity, delivery records, durability-retention tests","eta(t,z), eta0, eta_r, lambda_e","cb0', Delta tan phi, kH, kE, chimin, rs",Cementation retention and spatial/depth trends,Footing data may absorb cementation uncertainty into strength or modifier terms
+2,"UCS, drained triaxial, direct shear","cb0', Delta tan phi","kH, kE, chimin, rs",Treated-minus-untreated strength increments,Cohesion and friction increments become non-unique in footing calibration
+3,"Plate-load, centrifuge, FEM, or limit analysis with varied H/B",kH or chiH(H/B),"eta(t,z), cb0', Delta tan phi, kE, chimin, rs",Ultimate capacity trend with treated depth,Depth benefit may be overassigned to strength or localization terms
+4,Load-settlement curves or stiffness profiles with varied H/B,kE or chiE(H/B),"eta(t,z), cb0', Delta tan phi, kH, chimin, rs",Initial/secant stiffness and settlement index,Serviceability response may be fitted by ultimate-capacity parameters
+5,"Post-peak, softening, localization, centrifuge, or calibrated elastoplastic FEM","chimin, rs","eta(t,z), cb0', Delta tan phi, kH, kE",Peak/post-peak ratio and localized failure mode,Brittleness cap remains non-unique and should not be fitted
+6,"Independent footing geometry, treatment depth, or exposure history","None, validation only",All calibrated parameters,"qu, settlement, beta50, pf50",Calibration may reproduce one curve but fail outside the fitted case

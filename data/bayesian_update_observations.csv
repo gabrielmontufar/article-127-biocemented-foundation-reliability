@@ -1,0 +1,3 @@
+observation,source,equivalent_exposure_age,retention,sigma_y,parameter_informed
+y15,Sharma et al. (2021) digitized durability-retention hold-out,15.0,0.83,0.08,lambda_e and eta_r
+y20,Sharma et al. (2021) digitized durability-retention hold-out,20.0,0.65,0.08,lambda_e and eta_r

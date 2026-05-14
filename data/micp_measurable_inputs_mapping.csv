@@ -1,0 +1,5 @@
+Parameter,Measurable inputs,Suggested mapping,Calibration data,Main uncertainty,Identifiability warning
+eta0,"CaCO3 content, spatial CaCO3 distribution, Vs/UPV, CPT, injection records",eta0(Cc) times uniformity factor Uc,"Carbonate profiles, wave velocity, CPT/CPTu",Carbonate morphology and spatial variability,Confounded with cb0' if only capacity is used
+cb0',"UCS, drained triaxial, direct shear, CaCO3",xi_c UCS increment or saturating cb0'(Cc),Element tests on treated and untreated sand,UCS-to-c' conversion and fabric,Confounded with eta0 and chi_s
+Delta tan phi,"Drained triaxial/direct shear, dilatancy, density, CaCO3",tan(phi'_treated)-tan(phi'_untreated),Treated vs untreated shear tests,"Density, fabric, dilation and confining stress",Confounded with cb0' in footing tests
+lambda_e,"Wetting-drying, salinity, pH, calcite saturation, flushing, temperature, durability retention",lambda_ref Fchem Fflow FWD Ftemp Fsalinity,"Retention curves for UCS, UPV, Vs, mass, stiffness","Separating chemical, hydraulic and cyclic mechanisms",Confounded with eta_r without long-duration data

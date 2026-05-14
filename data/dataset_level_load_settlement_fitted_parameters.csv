@@ -1,0 +1,6 @@
+parameter,value,units,meaning
+km,3.2659104643135426,kPa/mm,Untreated matrix initial stiffness
+k0_treated,41.22330040668275,kPa/mm,Treated initial stiffness
+aE_equiv,11.622299618170159,-,Equivalent stiffness multiplier for eta_eff*chi_E=1
+qu_untreated,41.0,kPa,Table 6 ultimate pressure for square 120 mm untreated
+qu_treated,177.0,kPa,Table 6 ultimate pressure for square 120 mm treated

@@ -1,0 +1,7 @@
+source,quantity,observed_range,model_range,comparison
+Kulkarni et al. 2021,Circular-plate bearing-capacity ratio,2.95-5.80,2.84-5.01,"Model lower endpoint differs by 0.11 ratio units; upper endpoint is 0.79 below the largest published ratio, so the benchmark is conservative at the high end."
+Kulkarni et al. 2021,Square-plate bearing-capacity ratio,3.71-4.22,3.64-4.38,Model range brackets the reported square-plate range with endpoint differences of 0.07 and 0.16 ratio units.
+Kulkarni et al. 2021,Circular-plate settlement-reduction factor,1.70-2.00,1.80-2.08,Model range is within 0.10 ratio units at the lower end and 0.08 at the upper end.
+Kulkarni et al. 2021,Square-plate settlement-reduction factor,2.38-3.31,2.42-3.40,Model range brackets the reported square-plate settlement reduction with endpoint differences of 0.04 and 0.09 ratio units.
+Kulkarni et al. 2021,"UCS gain for 0.5 mm sand, 0.05 to 0.20 L/kg BCC at 14 days",114.3-180.8 kPa; 58.18% increase,cb0 calibration band 20-35 kPa maps to design-screening ratios used in the bearing benchmark,Used to bound the cemented cohesion increment rather than to claim a direct UCS-to-footing conversion.
+Sharma et al. 2021,Durability under wetting-drying and ageing,"UPV, shear modulus, UCS, STS and mass loss measured after 0-20 wetting-drying cycles and 0-6 months ageing",eta_r=0.20-0.35 and lambda=0.012-0.060 1/yr leave 1.16-1.93 times untreated capacity at 50 years,"Used as a durability-persistence envelope, not as a digitized time-history calibration."

@@ -1,0 +1,3 @@
+Source,Exposure type,Variable,Role,Fitted parameters,RMSE,NRMSE,MAPE,R2,Final-retention error (%),Interpretation
+Sharma et al. 2021,freeze-thaw cycles,UCS retention,calibration,eta_r=0.000; lambda_E=0.0086 per cycle,0.00020427837963968995,0.0024611852968637353,0.016865753845224006,0.9999636571601032,0.016375496342824203,Controlled environmental cycling series; used as durability-identifiability check.
+Sharma et al. 2021,freeze-thaw cycles,UCS retention,validation,eta_r=0.000; lambda_E=0.0086 per cycle,0.13944997230309913,0.774722068350551,17.620085928021194,-1.4007771327574239,19.119165559181063,Controlled environmental cycling series; used as durability-identifiability check.

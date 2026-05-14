@@ -1,0 +1,11 @@
+Parameter,Meaning,Baseline value,Sensitivity range,Role
+eta0_mean,Mean initial cementation state,0.95,fixed,bounded logit-normal field
+eta0_cov,COV of initial cementation state,0.22,fixed,spatial variability amplitude
+lambda_e_mean,Mean degradation rate,0.035,fixed,lognormal positive field
+lambda_e_cov,COV of degradation rate,0.35,fixed,spatial variability amplitude
+theta_h/B,Horizontal correlation length,case-specific,"0.25, 1.0, 2.0",plan correlation
+theta_v/B,Vertical correlation length,case-specific,"0.10, 0.25, 1.0",depth correlation
+grid,Random-field grid,11 x 11 x 9,fixed,treated volume below footing
+n_realizations,Monte Carlo random fields,5000,fixed,reliability simulation
+seed,Reproducibility seed,1272026,fixed,random-number control
+transformation,Field transform,logit-normal eta0; lognormal lambda_e,fixed,physical bounds

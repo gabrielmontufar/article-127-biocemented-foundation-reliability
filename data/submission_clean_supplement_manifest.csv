@@ -1,0 +1,6 @@
+package_group,primary_scripts,primary_outputs,purpose
+main_reproducibility,reproduce_article_127_benchmark.py,deterministic_time_history.csv; monte_carlo_reliability_time_history.csv; parametric_design_matrix.csv,"Core deterministic, Monte Carlo, FOSM, and parametric results."
+dataset_validation,dataset_level_load_settlement_calibration.py; dataset_level_degradation_calibration.py,dataset_level_*; kulkarni2021_*; sharma2021_*,Experimental component calibration and hold-out checks.
+independent_numerical_audits,open_source_limit_analysis_layered_footing.py; openseespy_layered_footing_fem.py; calculix_3d_solid_fem_benchmark.py,open_source_limit_analysis_benchmark.csv; openseespy_layered_footing_fem.csv; round9_calculix_3d_solid_fem.csv,Limit-analysis and FEM checks for treated-depth and serviceability trends.
+decision_framework,service_pressure_comparison_maintext.py; bayesian_updating_reliability_demo.py; v4_validation_architecture.py,decision_*; bayesian_update_*; v4_*,"Permanent-credit overestimation, reliability inversion, Bayesian updating, and V4 architecture."
+optional_extensions,environmental_*.py; cyclic_*.py; spatial_random_field_*.py; time_dependent_reliability_frameworks.py,environmental_*; cyclic_*; spatial_*; tdr_*,Extensions retained as supplemental sensitivity and future project-update modules.

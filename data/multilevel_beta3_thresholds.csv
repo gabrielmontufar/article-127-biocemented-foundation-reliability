@@ -1,0 +1,6 @@
+Variable,threshold_for_beta_ge_3,beta_at_threshold,Interpretation
+qservice max kPa,556.2594690942205,3.0018625158057386,one-at-a-time threshold under baseline uncertainty
+H/B min,2.9999999999577995,1.4577238812382307,one-at-a-time threshold under baseline uncertainty
+lambda_e max 1/yr,0.0010000000011496013,2.557261089190867,one-at-a-time threshold under baseline uncertainty
+eta_r min,0.6499999999906867,2.0098222972750963,one-at-a-time threshold under baseline uncertainty
+cb0 min kPa,79.9999999988504,2.261418837940597,one-at-a-time threshold under baseline uncertainty

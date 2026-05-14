@@ -1,0 +1,6 @@
+case,H_over_B,time_or_exposure,reference,closed_form_error_percent,capped_error_percent,decision
+limit/FEM audit,0.5,50,virtual FEM/limit,23.0,11.0,cap mandatory
+limit/FEM audit,1.0,50,virtual FEM/limit,19.7,10.5,cap recommended
+limit/FEM audit,1.5,50,virtual FEM/limit,11.8,8.4,screening acceptable with cap
+limit/FEM audit,2.0,50,virtual FEM/limit,5.7,5.7,closed form acceptable for screening
+serviceability audit,2.0,50,CalculiX elastic 3D,0.0,0.0,service trend only; not collapse validation

@@ -1,0 +1,7 @@
+Aspect,Minimum criterion,Status,Evidence/remaining gap
+Parameter anchoring,"Dominant parameters are measured, calibrated, or sensitivity-bounded",Partly met,"phi_m, qservice, theta_R dominate; kH, lambda_e, chi_s remain bounded not fully measured"
+Degradation,eta_r and degradation rate tied to retention or exposure ranges,Partly met,freeze-thaw retention fit strong for calibration segment; validation segment shows model-form risk
+Initial strength,cb0 and Delta tan phi bounded without double counting,Partly met,PLT/UCS anchors constrain capacity ratio; component separation still nonunique
+Serviceability,proxy calibrated or checked against load-settlement,Met for screening,"Kulkarni hyperbolic fit and CalculiX trend audit constrain proxy, not final settlement prediction"
+Model-form comparison,M3 changes decision relative to M0-M2/M4,Met,permanent-credit M1 overcredits; M3/M4 expose reliability loss
+Numerical audits,closed form error quantified and cap rule stated,Met for screening,OpenSeesPy error 19.7% at H/B<=1 and 5.7% at H/B=2; use FEM/cap for thin crusts

@@ -1,0 +1,6 @@
+dataset_block,calibration_data,parameters_calibrated,reserved_data,holdout_test,risk
+initial strength,Kulkarni square PLT early/pre-ultimate branch; Rezende triaxial bounds,"eta0, cb0_prime, Delta tan phi",Kulkarni held-out ultimate/table response or treatment contrast,qu/SRF/BCR range check,composite strength may confound cohesion and friction
+degradation,Sharma 0-10 wetting-drying cycles,"lambda_e, eta_r, degradation law",Sharma 15-20 cycles,late-cycle MAPE and law ranking,single exponential may underpredict late damage
+service response,untreated and treated pre-ultimate q-s branch,hyperbolic/secant stiffness,larger settlement branch or alternative plate geometry,NRMSE/MAPE of q-s curve,open PDF limits individual circular-plate curves
+treated depth,H/B=1.0 and 1.5 virtual audits,"kH, chi_s, cap factor",H/B=0.5 and 2.0,monotonicity and capped error,thin treated crusts require capping
+global M8 model,all component-calibrated parameters fixed before virtual-footing run,no post-hoc global tuning,coupled degraded-footing response,Eq. vs capped vs FEM/limit error,V4 only; not physical V5 validation

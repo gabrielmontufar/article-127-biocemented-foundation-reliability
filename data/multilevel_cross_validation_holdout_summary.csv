@@ -1,0 +1,5 @@
+Dataset,Use,Parameters checked,Hold-out/contrast,Error hold-out,Conclusion
+Kulkarni load-settlement,calibration plus held-out points,"km, k0, aE_equiv",later curve points,treated NRMSE 0.205; untreated NRMSE 0.221,"usable for screening, not final settlement"
+Sharma retention,early cycles calibration; late cycles hold-out,"eta_r, lambda_N",15 and 20 cycles,hold-out MAPE 17.6%; final retention error 19.1%,late-cycle damage needs model-form uncertainty
+OpenSeesPy H/B,mechanical cross-check,kH/capping domain,H/B cases,max 19.7%; 5.7% at H/B=2,cap/recalibrate H/B<1.5
+CalculiX 3D settlement,independent 3D service trend,aE/sI trend only,H/B cases,stiffness ratio lower than proxy; monotonic,proxy retained as ranking flag

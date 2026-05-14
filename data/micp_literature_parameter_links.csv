@@ -1,0 +1,10 @@
+Study,Measured input,Reported MICP effect,Parameter informed,How used here
+Al Qabany and Soga (2013),chemical treatment concentration,Treatment chemistry changes carbonate precipitation pattern and engineering properties,"eta0, cb0', Delta tan phi",Supports using reagent concentration and CaCO3 distribution as priors
+Harkes et al. (2010),bacterial activity fixation and distribution,Spatially variable activity controls carbonate precipitation for ground reinforcement,eta0 and Uc,Motivates uniformity factor and injection-record constraints
+Gomez et al. (2015); van Paassen et al. (2010),field/large-scale bio-cementation response,Field delivery and monitoring affect treatment uniformity and scale-up,"eta0, lambda_e, kH, kz",Links measurable treatment delivery to reliability inputs
+Montoya and DeJong (2015),stress-strain response of cemented sands,Cementation changes strength and stiffness response,"cb0', Delta tan phi",Supports element-test separation of cohesion-like and frictional increments
+Choi et al. (2020),"compiled CaCO3, UCS, Mohr-Coulomb parameters, permeability",Engineering properties are correlated with carbonate content but remain material dependent,"eta0, cb0', Delta tan phi","Supports calibrable, non-universal maps"
+Terzis and Laloui (2018),3-D micro-architecture and mechanical response,Calcite bond architecture controls mechanical response,"Uc, chi_s, fracture/damage modifiers",Supports morphology/uniformity factors
+Sharma et al. (2021),"UCS, STS, UPV, shear wave velocity, durability","Strength, stiffness and durability metrics respond to treatment cycles and exposure","cb0', lambda_e",Supports durability-retention calibration
+Konstantinou et al. (2023),fracture toughness and strength of bio-cemented sand,Fracture properties vary with degree of cementation,chi_s and lambda_e modifiers,Supports fracture/bond-damage path for fragility and degradation
+Lin et al. (2023),cementation stress characteristic curve,Cementation state can be related to stress-level dependent response,"eta0, cb0'",Supports using cementation-state priors rather than raw CaCO3 alone

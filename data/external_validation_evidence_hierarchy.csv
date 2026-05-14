@@ -1,0 +1,10 @@
+Evidence,Level,Supports,Does not support,Editorial risk,Strengthening action
+Monte Carlo and FOSM,V0-V1,Reliability computation and convergence,Does not validate physics,medium,Keep as numerical verification; combine with external component data
+Parametric matrix and sensitivity,V0-V1,"Decision sensitivity to qservice, H/B, lambda, eta_r",Does not prove parameter values,medium,Report parameter audit and thresholds
+Kulkarni et al. 2021 PLT/load-settlement,V3,Initial MICP bearing and service response,"No environmental degradation, lab scale only",medium,Use for initial capacity/stiffness calibration and held-out checks
+Sharma et al. 2021 durability retention,V3,Environmental degradation can identify eta_r/lambda form,Not footing-scale and late-cycle exponential error remains,medium,Use as degradation component constraint and falsification test
+Open-source limit analysis,V2,Layered treated-zone mechanism bounds,Not experimental validation,medium,Use as cap/check for thin treated crusts
+OpenSeesPy FEM,V2,Independent normalized capacity trend,Not calibrated field FEM,medium,Quantify error and require FEM for H/B<1.5
+CalculiX 3D FEM,V2,Settlement/stiffness trend under treated depth,"Elastic only, not collapse capacity",medium,Use as serviceability lower-bound audit
+Model-form comparison M0-M4,V1-V2,Permanent credit can change design decision,Depends on same uncertain inputs,low-medium,Retain as falsification against simpler models
+Direct degraded MICP footing test,V5,Would validate coupled model directly,Not located in accessible literature,high,Define minimum experiment and component-chain substitute

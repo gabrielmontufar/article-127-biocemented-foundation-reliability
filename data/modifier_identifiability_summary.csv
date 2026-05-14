@@ -1,0 +1,6 @@
+parameter_pair,rich_data_abs_corr,sparse_data_abs_corr,warning,recommended_response
+eta0 - cb0,0.2218973833134008,0.712859685890251,Capacity-only data can trade initial cementation against cohesion increment.,Use staged calibration or report sensitivity envelope if independent data are unavailable.
+etar - lambda_e,0.9785021403761958,1.000000000000016,A single degradation endpoint cannot separate residual state from degradation rate.,Use staged calibration or report sensitivity envelope if independent data are unavailable.
+cb0 - dtanphi,0.9829041455685592,0.9984291318904447,Footing response alone may not separate cohesion-like and frictional increments.,Use staged calibration or report sensitivity envelope if independent data are unavailable.
+kH - rs,0.04294801597018711,1.0,A single treated depth can trade mobilized depth against localization cap.,Use staged calibration or report sensitivity envelope if independent data are unavailable.
+kE - cb0,0.7512286432242251,0.9974784533910132,One settlement curve can trade stiffness-depth scale against strength/stiffness amplitude.,Use staged calibration or report sensitivity envelope if independent data are unavailable.

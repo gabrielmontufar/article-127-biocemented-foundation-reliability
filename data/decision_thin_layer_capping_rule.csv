@@ -1,0 +1,5 @@
+condition,recommended_action
+H/B >= 1.5 and FEM/limit error <=10-12%,Use closed-form Eq. (8) for preliminary ranking; still verify final design
+1.0 <= H/B < 1.5 or error 15-25%,"Use qu_safe=min(qu_BDC, qu_cap) and report capped reliability"
+H/B < 1.0 or error >25%,Do not use closed-form capacity without recalibrated FEM/limit-analysis cap
+"Strong layering, eccentric/inclined loading, complex groundwater",FEM/limit/load-test validation mandatory; closed form only screening

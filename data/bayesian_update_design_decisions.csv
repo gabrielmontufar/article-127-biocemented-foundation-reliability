@@ -1,0 +1,4 @@
+new_evidence,posterior_change,effect_on_beta50_or_pf50,decision
+published-retention update,lambda_e 0.034->0.025; eta_r 0.27->0.29,1.25->1.38,"qservice=900 kPa fails beta>=3; updated qservice,max is reported for screening"
+posterior central design,eta50 0.44->0.50,pf50 0.115->0.086,"reduce service pressure, require project-specific plate/load-settlement evidence, or redesign"
+posterior unfavorable tail,"qservice,max 2.5%=530 kPa",beta50 2.5%=1.09,inspection/re-treatment trigger if monitoring follows the lower credible envelope

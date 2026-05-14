@@ -1,0 +1,8 @@
+Parameter,Meaning,Baseline value,Sensitivity range,Calibration data,Identifiability issue
+Acyc,Plastic-strain accumulation coefficient,0.006,0.002-0.015,"Cyclic triaxial, cyclic direct shear, repeated plate load",Confounded with ap if only final capacity loss is observed
+CDR0,Cyclic demand threshold,0.08,0.03-0.15,Low-amplitude cyclic tests,Hard to identify without below-threshold tests
+mcyc,Amplitude sensitivity exponent,2.15,1.0-4.0,Multiple cyclic amplitudes,Confounded with CDR0 if amplitude range is narrow
+rcyc,Cycle-count accumulation exponent,0.42,0.20-0.70,Multiple cycle counts at fixed amplitude,Confounded with Acyc if only one cycle count is used
+ap,Cohesion damage exponent,8.0,3-14,Post-cyclic cohesion/UCS or triaxial strength loss,Confounded with Acyc and eta without independent strain data
+bp,Friction-enhancement damage exponent,5.5,2-10,Post-cyclic drained shear response,Difficult to separate from ap using capacity alone
+eps_p_max,Bounded accumulated plastic-strain cap,0.09,0.03-0.15,Large-strain cyclic or post-peak tests,"Acts as a numerical/physical limiter, not a universal constant"

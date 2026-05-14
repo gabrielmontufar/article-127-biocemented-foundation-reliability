@@ -1,0 +1,12 @@
+Parameter,Current value,Role,Current source,Class,Calibrated,Literature anchored,Technical risk,Strengthening action
+eta0,0.95 mean,initial cementation credit,treatment/CaCO3/Vs/UCS mapping,D,No,partly,dominant but indirectly measured,Use CaCO3+UCS/Vs prior and update with site data
+eta_r,0.20 mean,residual cementation,Sharma 2021 retention fit + sensitivity,B/C,Yes,yes,late-cycle fit nonunique,Use exposure-specific retention curves and bootstrap
+lambda_e,0.035 1/yr,service degradation clock,baseline synthetic; lambda_E fit exists,D,partly,partly,maps cycles to years,Use environmental-history conversion and retention data
+cb0,20 kPa,cemented cohesion increment,UCS/PLT bounded,C,bounded,yes,double-counting with friction,Fit one strength component while holding the other fixed
+Delta tan phi,0.0753,friction/dilatancy increment,tan35-tan32 target,C/D,bounded,partly,not directly isolated,Infer from triaxial/direct shear or set to zero in conservative fit
+kH,0.70,treated-depth benefit,synthetic depth fit; FEM/limit audit,D,partly,no,dominates shallow crust response,Calibrate to PLT/FEM depth series; cap H/B<1.5
+kz,not active in Eq.8 tables,vertical weighting,synthetic CPT profile,D,partly,no,nonunique without profile data,Fit to before-after CPT/Vs/CaCO3 profile
+"chi_s, rs","0.72 min, 0.18",localization/fragility limiter,sensitivity envelope,D,No,no,can mask brittle localization,Calibrate with post-peak/strain-localization or FEM back-analysis
+"aE, sI","4.2, threshold 0.045",serviceability proxy,Kulkarni load-settlement calibration and CalculiX audit,B/C,partly,yes,proxy may overstate stiffness,Use hyperbolic q-s curve and report as screening flag
+"theta_R, theta_Q",1.0 lognormal,model/load uncertainty,geotechnical reliability convention,C,No,yes,tail controls pf,Test distributions/correlation and report pf CI
+"H/B, qservice","1.0, 900 kPa stress test",design variables,parametric matrix,D,No,bounded,decision sensitive,Report thresholds and lower-demand case

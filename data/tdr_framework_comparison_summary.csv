@@ -1,0 +1,6 @@
+Scenario,pf_T,beta_T,pf_life_first_passage,beta_life,max_hazard_year,Markov states used,Difference vs terminal,Interpretation
+T,0.00512,2.567617765909948,0.00512,2.567617765909948,37.0,not used,0.0,Terminal and first-passage estimates coincide for monotonic degradation and stationary loading.
+O,0.00086,3.134751066520193,0.0301,1.879325953571609,18.0,not used,0.02924,Temporary exposure/load pulses create lifetime crossings not visible from the final year alone.
+H,0.00134,3.00224090426731,0.06874,1.485240979954055,12.0,not used,0.0674,Discrete interval hazards identify the years where new first crossings concentrate.
+M,0.00716,2.4491344084324034,0.02976,1.8843326030972545,46.0,mild; wetting_drying; chemical_pulse; flushing; mitigated,0.022600000000000002,State transitions translate environmental histories into probabilistic reliability paths.
+S,0.01142,2.2761004192786722,0.03762,1.7789985480793575,50.0,not used,0.0262,Autocorrelated degradation and load fluctuations require path-wise lifetime reliability.

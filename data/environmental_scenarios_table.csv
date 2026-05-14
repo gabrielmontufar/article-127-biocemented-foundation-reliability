@@ -1,0 +1,7 @@
+Scenario,Name,Chemistry,Flow regime,Wetting-drying frequency,Mitigation,Purpose
+A,Stationary mild groundwater,Near-neutral pH and non-aggressive calcite saturation proxy,Low hydraulic flushing,No major cycles,None required in benchmark,Stationary-exposure reference close to base model
+B,Undersaturated groundwater chemistry,Negative calcite-saturation proxy or low-pH interval,Low hydraulic flushing,No major cycles,None,Isolate chemistry-driven acceleration
+C,Hydraulic flushing pulses,Mild chemistry,High-gradient flushing pulses during selected intervals,No major cycles,None,Isolate hydraulic flushing effects
+D,Seasonal wetting-drying,Mild chemistry,Moderate flow,Semiannual cycles with moderate saturation amplitude,None,Represent cyclic environmental exposure
+E,Combined aggressive environment,Undersaturated or low-pH intervals,Repeated flushing pulses,Frequent high-amplitude cycles,None,Stress-test combined exposure severity
+F,Mitigated environment,Buffered chemistry,Controlled drainage and reduced flushing,Reduced cycle amplitude,Drainage and chemistry control,Show effect of environmental mitigation

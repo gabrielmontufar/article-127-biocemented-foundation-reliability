@@ -1,0 +1,9 @@
+Model,Description,External_error_summary,FS50,pf50,beta50,sI50,Decision,Improves_vs_M1_M2,Risk
+M0,untreated no credit,baseline/audit,1.067828583329566,0.397375,0.2601474989428984,0.16856638116835862,fails beta>=3,reference,none/medium
+M1,permanent MICP credit,PLT/degradation/FEM chain,2.0552045553159455,0.004366666666666666,2.6223202101889433,0.019384154559581306,fails beta>=3,reference,high over-credit
+M2,fixed 65% reduction,PLT/degradation/FEM chain,1.386645689277891,0.1141,1.2050085532038615,0.05817438080934671,fails beta>=3,reference,none/medium
+M3,proposed exponential,PLT/degradation/FEM chain,1.3923547806904015,0.11176666666666667,1.2171863214056724,0.057433831650935234,fails beta>=3,yes,controlled
+M4,Weibull-form degradation,PLT/degradation/FEM chain,1.3486716364343476,0.12943333333333334,1.1290738852899616,0.06353708982954191,fails beta>=3,yes,controlled
+M5,linear/bilinear degradation,PLT/degradation/FEM chain,1.2567642470715454,0.20903333333333332,0.8097799350373804,0.08073488208913107,fails beta>=3,yes,controlled
+M6,FEM/limit audit envelope,baseline/audit,1.324904008991333,,,,audit only; FEM required for final design,reference,mechanical benchmark
+M7,proposed degradation with H/B cap,PLT/degradation/FEM chain,1.1631066565057298,0.27313333333333334,0.6033638480935167,0.06875403010141179,fails beta>=3,yes,controlled

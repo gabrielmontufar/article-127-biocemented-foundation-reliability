@@ -1,0 +1,7 @@
+test,weakens_model_if,strengthens_model_if,action_if_failed
+retention law,selected law cannot predict hold-out,hold-out MAPE <20-25%,use Weibull/bilinear and update posterior
+capacity,closed form overpredicts >25%,capped error <15%,make capping mandatory or require FEM
+service,q-s trend not reproduced,NRMSE <0.25 for pre-ultimate branch,replace sI with calibrated q-s curve
+H/B trend,FEM/limit trend contradicts closed form,monotonic/capped trend consistent,recalibrate kH and chi_s
+rival model,fixed reduction M2 matches M3/M7 decisions,degradation changes critical decision,simplify or justify dynamic coupling
+uncertainty,posteriors do not discriminate designs,beta thresholds separate safe/unsafe region,declare non-identifiability

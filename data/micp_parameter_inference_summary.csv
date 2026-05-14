@@ -1,0 +1,5 @@
+Parameter,Posterior_demo_mean,Update basis,Caveat
+eta0,0.8139424684664666,updated from synthetic CaCO3 and eta indicator,demonstration only
+cb0',74.48856824354317,updated from synthetic CaCO3-strength map,demonstration only
+Delta tan phi,0.17208710026978552,updated from synthetic tangent-space map,demonstration only
+lambda_e,0.05522692727810166,updated from synthetic environmental descriptors,demonstration only

@@ -1,0 +1,6 @@
+model,description,data_used,prediction,external_error_summary,beta50,pf50,qservice_max_kPa,decision
+M0,untreated no MICP credit,baseline inputs,untreated reference,,0.26,0.397,,fails beta target
+M1,permanent MICP credit,initial component response only,non-degrading response,,2.62,0.0044,,over-credit risk
+M3/M4,degrading closed-form models,durability-calibrated degradation,time-dependent reliability,model-form spread,1.13,0.129,,fails beta target
+M7,degrading model with H/B cap,FEM/limit audit plus degradation,capped time-dependent reliability,thin-layer conservative,0.6,0.273,,fails beta target
+M8,V4 coupled virtual-footing model constrained by component datasets,"component-calibrated strength, service, degradation; independent FEM/limit trend",degraded-footing response with no global retuning,screening if capped error <=15%; otherwise FEM recalibration,1.38,0.086,576,"V4 support, not V5; qservice=900 fails"

@@ -1,0 +1,8 @@
+Falsification test,Result that weakens model,Result that strengthens model,Action if failed
+Thin-layer capacity overprediction,Eq. (8) exceeds FEM/limit by >25% or trend reverses,Error <10-15% for H/B>=1.5 and capped for thinner crusts,Restrict domain and require FEM/limit analysis
+Published PLT mismatch,Cannot reproduce BCR/SRF or load-settlement range,Digitized curve and Table 6 ratios reproduced within screening tolerance,Recalibrate cb0/Delta tan phi/aE or remove service claim
+Degradation-law failure,Exponential law misses held-out retention by unacceptable margin,Calibration segment fits and validation residual is treated as model-form uncertainty,Use Weibull/bilinear/cycle-specific degradation
+Synthetic parameter dominance,"kH, chi_s, lambda_e dominate decision without external bounds",Dominant variables are measured/literature-bounded or thresholds are reported,Move parameter to main limitation and require site test
+Fixed reduction performs equally,M2 gives same decisions as M3 across design matrix,M3 identifies time/path effects or different over-credit risk,Simplify contribution to deterministic reduction framework
+FEM/limit trend contradiction,Independent models show no monotonic H/B benefit,Trend remains monotonic with quantified overprediction bands,Replace depth function and recalibrate
+Uncertainty overwhelms discrimination,eta_r/lambda uncertainty makes all alternatives indistinguishable,Thresholds separate safe/unsafe design regions,Report non-identifiability and reduce claim strength

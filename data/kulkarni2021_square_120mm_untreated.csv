@@ -1,0 +1,11 @@
+settlement_mm,pressure_kpa,geometry,treatment,source,digitization_note,role
+0.0,0.0,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,calibration
+2.2148760330578523,2.957693276252829,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,calibration
+3.4958677685950423,6.119365399143792,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,calibration
+4.727272727272729,12.476706119365394,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,calibration
+7.677685950413223,18.256106774112308,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,calibration
+10.305785123966944,23.321581465625787,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,validation
+13.661157024793386,28.964996222613944,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,validation
+18.25619834710744,33.72450264417023,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,validation
+22.272727272727273,38.85797028456307,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,validation
+26.570247933884296,46.031226391337185,square_120mm_x_120mm,untreated,"Kulkarni et al. (2021), Figure 6 and Table 6; DOI:10.5614/j.eng.technol.sci.2021.53.6.2",Manual pixel digitization from the open PDF crop of Figure 6.,validation

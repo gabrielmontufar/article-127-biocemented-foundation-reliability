@@ -1,0 +1,7 @@
+Scenario,Degradation history,Loading history,Retreatment,Monotonic?,Purpose
+M,monotonic exponential clock,stationary q_service,none,True,terminal equivalence check
+E1,episodic wetting-drying exposure increments,stationary q_service,none,True,clustered exposure increases outcrossing rate
+E2,short chemical pulse exposure,stationary q_service,none,True,localized high-degradation pulse
+E3,monotonic degradation,seasonal and temporary load excursions,none,False,load variability can cause temporary first crossings
+E4,monotonic degradation with partial recovery,stationary q_service,years 20 and 35,False,inspection and retreatment may restore margin after earlier crossings
+E5,combined pulses and partial recovery,seasonal and event load excursions,year 30,False,combined non-monotonic exposure and loading

@@ -1,0 +1,8 @@
+Source,Test type,Scale,MICP,Footing/foundation,Degradation,Measured variable,Extractable data,Use level,Limitation
+Kulkarni et al. 2021,plate/load-settlement on MICP sand,laboratory model,yes,yes,no,"qu, settlement reduction, permeability, UCS",PLT curve and Table 6 ratios,V3,No degraded footing state
+Sharma et al. 2021 Geoderma,durability of biocemented sand,element/lab,yes,no,yes,"UCS retention, wetting-drying, ageing, liquefaction",retention-vs-cycle points,V3,No footing geometry
+Rawat and Satyam 2024,fiber-reinforced MICP coastal soil durability,element/lab,yes,no,yes,"UCS, STS, UPV, WD cycles",durability/UPV retention,V3,Fiber system differs from benchmark
+Powder Technology 2026 deterioration study,DW/FT degradation of MICP poorly graded sand,element/lab,yes,no,yes,"UCS, mass loss, erosion, microstructure",strength loss after DW/FT cycles,V3,Published after benchmark data; no footing
+Scientific Reports 2025 calcium-source study,bearing capacity and freeze-thaw/dry-wet durability,element/small model,yes,bearing-capacity style test,yes,"bearing capacity loss, mass loss",candidate for added digitization,V3/V4 candidate,Not a conventional shallow footing test
+Gomez et al. 2015 field-scale biocementation,field-scale sand improvement,field,yes,no,long-term field exposure limited,stiffness/treatment response,field-scale anchor,V4 support,No shallow footing load/degradation series
+Ji/Meng field surface studies cited in 2024 slope paper,surface bearing/erosion over exposure,field/surface,yes,surface bearing only,yes/time exposure,bearing capacity decrease and crust deterioration,candidate V4 contrast,V4 candidate,"Slope/surface crust, not foundation"

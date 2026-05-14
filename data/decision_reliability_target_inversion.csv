@@ -1,0 +1,6 @@
+design_variable,threshold_for_beta_ge_3,feasible_in_tested_range,design_interpretation
+qservice max kPa,556.2594690942205,yes within tested range,maximum service pressure about 556 kPa for beta>=3 under baseline uncertainty
+H/B min,2.9999999999577995,not within tested range,increasing treated depth alone did not reach beta>=3 within H/B<=3 under high-demand case
+lambda_e max 1/yr,0.0010000000011496,not within tested range,even near-zero degradation alone did not recover beta>=3 under high-demand case
+eta_r min,0.6499999999906867,not within tested range,residual cementation alone did not recover beta>=3 within eta_r<=0.65
+cb0 min kPa,79.9999999988504,not within tested range,initial cementation alone did not recover beta>=3 within cb0<=100 kPa
