@@ -1,0 +1,11 @@
+source,exposure_label,metric,retention,basis,comparison_use
+Sharma et al. 2021a,freeze-thaw 0 cycles,UCS retention,1.0,open abstract values digitized in prior supplement,degradation-retention calibration/validation
+Sharma et al. 2021a,freeze-thaw 5 cycles,UCS retention,0.958,open abstract values digitized in prior supplement,degradation-retention calibration/validation
+Sharma et al. 2021a,freeze-thaw 10 cycles,UCS retention,0.917,open abstract values digitized in prior supplement,degradation-retention calibration/validation
+Sharma et al. 2021a,freeze-thaw 15 cycles,UCS retention,0.83,open abstract values digitized in prior supplement,degradation-retention calibration/validation
+Sharma et al. 2021a,freeze-thaw 20 cycles,UCS retention,0.65,open abstract values digitized in prior supplement,degradation-retention calibration/validation
+Tao et al. 2025a,"one acid exposure, plain MICP",bearing capacity retention,0.88,about 12% bearing-capacity loss reported in evidence inventory,aggressive chemical retention bound
+Tao et al. 2025a,"one acid exposure, gelatin-assisted MICP",bearing capacity retention,0.95,about 5% bearing-capacity loss reported in evidence inventory,biopolymer-assisted retention bound
+Tao et al. 2025a,"one freeze-thaw cycle, plain MICP",bearing capacity retention,0.979,about 2.1% loss reported in evidence inventory,short exposure retention bound
+Tao et al. 2025c,"five freeze-thaw cycles, MICP-only",bearing capacity retention,0.9934,0.66% loss reported in evidence inventory,surface/fiber study auxiliary retention bound
+Ji et al. 2024,16-month weathering,CaCO3 retention,0.4,more than 60% CaCO3 decrease summarized in evidence inventory,long-term field weathering warning bound

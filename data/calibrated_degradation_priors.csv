@@ -1,0 +1,3 @@
+source,calibrated_parameter,value,units,use_in_manuscript,holdout_metric
+Ahenkorah et al. 2023 / Sharma et al. 2021 durability evidence envelope,eta_r,0.00033539107524,-,"residual cementation prior/sensitivity, not universal residual",validation MAPE=17.62%
+Ahenkorah et al. 2023 / Sharma et al. 2021 durability evidence envelope,lambda_E,0.0086499548245407,per exposure cycle,exposure-clock degradation prior; convert to years only with environmental history,validation final-retention error=19.12%

@@ -1,0 +1,23 @@
+source,evidence_stream,variable,x_label,x_numeric,value,units,model_component,use,limitation
+Kulkarni et al. 2021,direct MICP PLT,BCR,circular 50 diameter,,4.89,-,treated-zone initial bearing-capacity plausibility,calibrate/bound initial PLT response,no long-term degradation
+Kulkarni et al. 2021,direct MICP PLT,settlement_reduction_percent,circular 50 diameter,,53.76,%,serviceability trend,check settlement direction,no calibrated settlement prediction
+Kulkarni et al. 2021,direct MICP PLT,BCR,circular 100 diameter,,3.16,-,treated-zone initial bearing-capacity plausibility,calibrate/bound initial PLT response,no long-term degradation
+Kulkarni et al. 2021,direct MICP PLT,settlement_reduction_percent,circular 100 diameter,,53.76,%,serviceability trend,check settlement direction,no calibrated settlement prediction
+Kulkarni et al. 2021,direct MICP PLT,BCR,circular 120 diameter,,5.86,-,treated-zone initial bearing-capacity plausibility,calibrate/bound initial PLT response,no long-term degradation
+Kulkarni et al. 2021,direct MICP PLT,settlement_reduction_percent,circular 120 diameter,,53.76,%,serviceability trend,check settlement direction,no calibrated settlement prediction
+Kulkarni et al. 2021,direct MICP PLT,BCR,square 50 x 50,,4.46,-,treated-zone initial bearing-capacity plausibility,calibrate/bound initial PLT response,no long-term degradation
+Kulkarni et al. 2021,direct MICP PLT,settlement_reduction_percent,square 50 x 50,,34.9,%,serviceability trend,check settlement direction,no calibrated settlement prediction
+Kulkarni et al. 2021,direct MICP PLT,BCR,square 100 x 100,,3.38,-,treated-zone initial bearing-capacity plausibility,calibrate/bound initial PLT response,no long-term degradation
+Kulkarni et al. 2021,direct MICP PLT,settlement_reduction_percent,square 100 x 100,,34.9,%,serviceability trend,check settlement direction,no calibrated settlement prediction
+Kulkarni et al. 2021,direct MICP PLT,BCR,square 120 x 120,,4.31,-,treated-zone initial bearing-capacity plausibility,calibrate/bound initial PLT response,no long-term degradation
+Kulkarni et al. 2021,direct MICP PLT,settlement_reduction_percent,square 120 x 120,,34.9,%,serviceability trend,check settlement direction,no calibrated settlement prediction
+Sharma et al. 2021a,freeze-thaw durability,UCS retention,0 cycles,0.0,1.0,-,"eta(t), lambda_E, eta_r",calibrate degradation retention by exposure cycles,"element-scale UCS retention, not footing capacity"
+Sharma et al. 2021a,freeze-thaw durability,UCS retention,5 cycles,5.0,0.958,-,"eta(t), lambda_E, eta_r",calibrate degradation retention by exposure cycles,"element-scale UCS retention, not footing capacity"
+Sharma et al. 2021a,freeze-thaw durability,UCS retention,10 cycles,10.0,0.917,-,"eta(t), lambda_E, eta_r",calibrate degradation retention by exposure cycles,"element-scale UCS retention, not footing capacity"
+Sharma et al. 2021a,freeze-thaw durability,UCS retention,15 cycles,15.0,0.83,-,"eta(t), lambda_E, eta_r",calibrate degradation retention by exposure cycles,"element-scale UCS retention, not footing capacity"
+Sharma et al. 2021a,freeze-thaw durability,UCS retention,20 cycles,20.0,0.65,-,"eta(t), lambda_E, eta_r",calibrate degradation retention by exposure cycles,"element-scale UCS retention, not footing capacity"
+Tao et al. 2025a,MICP acid bearing retention,bearing-capacity retention,plain MICP acid test,1.0,0.88,-,environmental retention eta(t),bound acid-exposure retention,"surface/biopolymer specimen, not footing PLT"
+Tao et al. 2025a,MICP freeze-thaw bearing retention,bearing-capacity retention,plain MICP freeze-thaw,1.0,0.979,-,environmental retention eta(t),bound freeze-thaw retention,"single-cycle reported value, not long-term footing"
+Tao et al. 2025b,field MICP surface bearing,bearing capacity,trapezoidal sandy land,,346.67,kPa,field surface strength context,field plausibility bound,surface stabilization context
+Tao et al. 2025b,field MICP surface bearing,bearing capacity,man-made dunes,,298.67,kPa,field surface strength context,field plausibility bound,surface stabilization context
+Meng et al. 2021,field MICP surface bearing,bearing capacity,6 mm penetrometer,,459.9,kPa,field surface strength context,field plausibility bound,"surface crust, not footing PLT"

@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import math
@@ -10,13 +10,13 @@ import numpy as np
 import pandas as pd
 
 
-BASE = Path(__file__).resolve().parents[1]
-SUPP = BASE
+BASE = Path(__file__).resolve().parents[3]
+SUPP = BASE / "04 Supplemental data and code" / "Supplementary files"
 DATA = SUPP / "data"
 FIGS = SUPP / "figures"
 CODE = SUPP / "code"
-UPLOAD = BASE
-AUDIT = BASE / "audits"
+UPLOAD = BASE / "00 Files for journal upload"
+AUDIT = BASE / "05 Journal selection and audits"
 
 
 def bearing_factors(phi_deg: float) -> tuple[float, float, float]:
@@ -195,3 +195,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

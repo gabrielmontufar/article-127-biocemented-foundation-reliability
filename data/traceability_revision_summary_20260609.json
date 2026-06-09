@@ -1,0 +1,16 @@
+{
+  "revision_date": "2026-06-09",
+  "strategy": "traceability-first component-calibrated validation with residual gap disclosure",
+  "new_files": [
+    "data/traceability_total_evidence_matrix_20260609.csv",
+    "data/reviewer_requirement_completion_audit_20260609.csv",
+    "data/validation_residual_gap_register_20260609.csv",
+    "README_traceability_total_validation_20260609.md",
+    "figures/figure_traceability_reviewer_requirement_map.png",
+    "figures/figure_claim_status_by_component.png",
+    "figures/figure_dataset_to_claim_traceability_chain.png",
+    "code/generate_traceability_validation_figures.py"
+  ],
+  "direct_v5_degraded_footing_validation_claimed": false,
+  "remaining_integrated_dataset_gap": "No public same-campaign degraded MICP shallow-footing dataset with c-prime/phi-prime and localization measurements located."
+}

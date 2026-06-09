@@ -1,0 +1,4 @@
+Corrected package version. The manuscript table numbering was corrected, the missing de Rezende et al. reference was added, the table workbook was updated with Main Tables 4-7 and reference-addition sheet, and external TIFF figures were restored in the root package.
+Final pass: Sharma et al. (2021) was disambiguated as 2021a/2021b, cover/response wording was made explicit for prior manuscript GTENG-15832, __pycache__ files were removed, and the AE figure regeneration script was made path-safe for standalone extraction.
+
+Additional external-evidence update added on 2026-06-09: public experimental-data inventory, AE-source mapping, and generator script. The update preserves V4-only claim boundary.

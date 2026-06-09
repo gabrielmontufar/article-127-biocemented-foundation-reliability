@@ -1,0 +1,6 @@
+gap,public_status,why_it_matters,manuscript_handling
+Direct degraded MICP footing PLT over time,not located publicly,Required for direct V5 degraded-footing claim,Do not claim direct V5; present component validation
+Paired c_prime/phi_prime before and after degradation in same footing specimens,not located publicly,Would directly link element strength to footing response,Use PRJ-2453/de Rezende + Sharma/Ribeiro as component chain
+"Full H/B grid under same soil, MICP protocol, and degradation history",not located publicly,Would identify universal-looking depth function,Use capped screening function and numerical bounds
+Observed post-peak localization/DIC/tomography for degraded MICP footing,not located publicly,Would identify chi_s as a physical parameter,Treat chi_s as sensitivity/falsification only
+Raw repository data,partially located,PRJ-2453 is repository-level; other sources are digitizable primary articles,Label as repository data or digitized primary evidence as appropriate

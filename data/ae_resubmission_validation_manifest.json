@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-06-09T16:49:41.150235+00:00",
+  "root": "C:\\Users\\gjm31\\OneDrive\\Escritorio\\articulos up\\127 avo art\\github article 127 biocemented foundation reliability",
+  "outputs": [
+    "ae_parameter_evidence_matrix.csv",
+    "calibrated_degradation_priors.csv",
+    "component_calibration_metrics.csv",
+    "model_hierarchy_ablation.csv"
+  ],
+  "validation_boundary": "V4 component-constrained indirect validation; V5 direct degraded-footing validation is not claimed."
+}

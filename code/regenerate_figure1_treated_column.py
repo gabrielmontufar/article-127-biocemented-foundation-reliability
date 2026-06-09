@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from pathlib import Path
 
@@ -7,7 +7,7 @@ import numpy as np
 from matplotlib.patches import Rectangle
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[3]
 FIG = (
     ROOT
     / "04 Supplemental data and code"
@@ -94,3 +94,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

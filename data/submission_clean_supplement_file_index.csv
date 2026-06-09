@@ -1,196 +1,266 @@
-relative_path,bytes,group_hint
-code\bayesian_updating_reliability_demo.py,13233,
-code\calculix_3d_solid_fem_benchmark.py,12647,
-code\calibrate_kH_from_plate_load.py,151,
-code\calibrate_kz_from_cpt_profile.py,153,
-code\cyclic_loading_scenarios.py,4666,optional_extensions
-code\cyclic_plastic_strain_accumulation.py,10441,optional_extensions
-code\cyclic_reliability_sensitivity.py,92,optional_extensions
-code\dataset_level_degradation_calibration.py,5352,dataset_validation
-code\dataset_level_load_settlement_calibration.py,9611,dataset_validation
-code\discrete_hazard_reliability.py,94,
-code\environmental_history_degradation.py,9372,optional_extensions
-code\environmental_reliability_sensitivity.py,91,optional_extensions
-code\environmental_scenarios_generator.py,5183,optional_extensions
-code\first_passage_outcrossing_reliability.py,94,
-code\lifetime_outcrossing_hazard.py,9912,
-code\lower_demand_service_benchmark.py,94,
-code\markov_environment_reliability.py,94,
-code\micp_bayesian_parameter_update_demo.py,91,
-code\micp_environment_to_lambda.py,86,
-code\micp_parameter_inference_maps.py,11414,
-code\micp_treatment_schedule_to_caco3.py,86,
-code\modifier_calibration_guidance.py,8339,
-code\modifier_identifiability_analysis.py,13615,
-code\modifier_site_update_synthetic_example.py,12054,
-code\nonmonotonic_environment_scenarios.py,9912,
-code\openseespy_layered_footing_fem.py,7601,
-code\open_source_limit_analysis_layered_footing.py,7017,
-code\regenerate_figure1_treated_column.py,2552,
-code\reproduce_article_127_benchmark.py,3296,
-code\service_pressure_comparison_maintext.py,6710,
-code\spatial_random_field_cementation.py,13131,optional_extensions
-code\spatial_random_field_reliability.py,13131,optional_extensions
-code\stochastic_process_reliability_demo.py,94,
-code\time_dependent_reliability_frameworks.py,14979,
-code\update_modifiers_from_site_data.py,429,
-code\v4_validation_architecture.py,11123,decision_framework
-data\bayesian_update_design_decisions.csv,537,decision_framework
-data\bayesian_update_observations.csv,281,decision_framework
-data\bayesian_update_posterior_summary.csv,1508,decision_framework
-data\bayesian_update_prior_posterior_samples.csv,1995917,decision_framework
-data\bayesian_update_reliability_trajectories.csv,32546,decision_framework
-data\benchmark_acceptance_criteria_status.csv,1081,
-data\benchmark_lhs_rank_robustness.csv,539,
-data\benchmark_model_form_comparison_m0_m4.csv,854,
-data\benchmark_model_form_time_history_m0_m4.csv,1111,
-data\benchmark_parameter_audit_strengthened.csv,1998,
-data\benchmark_summary.json,349,
-data\chis_sensitivity_summary.csv,11566,
-data\cyclic_accumulation_parameters.csv,1124,optional_extensions
-data\cyclic_damage_summary.csv,1408,optional_extensions
-data\cyclic_loading_histories.csv,25339,optional_extensions
-data\cyclic_loading_scenarios_table.csv,598,optional_extensions
-data\cyclic_parameter_sensitivity.csv,1280,optional_extensions
-data\cyclic_scenario_reliability.csv,165831,optional_extensions
-data\dataset_level_degradation_fitted_parameters.csv,210,dataset_validation
-data\dataset_level_degradation_metrics.csv,689,dataset_validation
-data\dataset_level_load_settlement_fitted_parameters.csv,393,dataset_validation
-data\dataset_level_load_settlement_metrics.csv,1025,dataset_validation
-data\decision_bayesian_updating_route.csv,892,decision_framework
-data\decision_permanent_credit_overestimation_index.csv,781,decision_framework
-data\decision_reliability_target_inversion.csv,758,decision_framework
-data\decision_thin_layer_capping_rule.csv,482,decision_framework
-data\deterministic_time_history.csv,15756,main_reproducibility
-data\environmental_degradation_summary.csv,1257,optional_extensions
-data\environmental_driver_screening_proxies.csv,1409,optional_extensions
-data\environmental_histories.csv,43936,optional_extensions
-data\environmental_lambda_equivalent.csv,164,optional_extensions
-data\environmental_scenarios_table.csv,1123,optional_extensions
-data\environmental_scenario_reliability.csv,192834,optional_extensions
-data\external_quantitative_validation.csv,1528,
-data\external_quantitative_validation_round3.csv,1528,
-data\external_trend_validation.csv,1116,
-data\external_validation_candidate_sources.csv,1683,
-data\external_validation_component_architecture.csv,1324,
-data\external_validation_evidence_hierarchy.csv,1633,
-data\external_validation_falsification_tests.csv,1533,
-data\first_passage_times.csv,1034280,
-data\hazard_survival_table.csv,15813,
-data\kH_kz_chis_calibration_summary.csv,824,
-data\kH_profile_objective.csv,48052,
-data\kulkarni2021_digitized_plate_load_data.csv,5114,dataset_validation
-data\kulkarni2021_square_120mm_treated.csv,2816,dataset_validation
-data\kulkarni2021_square_120mm_untreated.csv,2375,dataset_validation
-data\kulkarni2021_table6_bcr_srf_summary.csv,1014,dataset_validation
-data\kz_cpt_profile_objective.csv,31293,
-data\limiting_case_verification.csv,506,
-data\lower_demand_maintext_table.csv,922,
-data\lower_demand_service_results.csv,958,
-data\markov_environment_paths.csv,123721,
-data\micp_bayesian_parameter_update_demo.csv,425,
-data\micp_environment_to_lambda_cases.csv,243,
-data\micp_literature_parameter_links.csv,2109,
-data\micp_measurable_inputs_mapping.csv,1098,
-data\micp_parameter_inference_summary.csv,420,
-data\modifier_calibration_identifiability_table.csv,1857,
-data\modifier_calibration_workflow_table.csv,1527,
-data\modifier_identifiability_fit_parameters.csv,233,
-data\modifier_identifiability_summary.csv,1185,
-data\modifier_output_sensitivity_curves.csv,21235,
-data\modifier_parameter_correlation_rich_data.csv,1399,
-data\modifier_parameter_correlation_sparse_data.csv,1266,
-data\modifier_profile_likelihood.csv,6199,
-data\modifier_sensitivity_matrix.csv,1602,
-data\monte_carlo_convergence.csv,260,
-data\monte_carlo_reliability_time_history.csv,11921,main_reproducibility
-data\multilevel_beta3_thresholds.csv,580,
-data\multilevel_cross_validation_holdout_summary.csv,728,
-data\multilevel_degradation_model_selection.csv,791,
-data\multilevel_model_form_comparison_m0_m7.csv,1355,
-data\openseespy_layered_footing_fem.csv,771,independent_numerical_audits
-data\open_source_limit_analysis_benchmark.csv,2505,independent_numerical_audits
-data\outcrossing_environment_scenarios.csv,813,
-data\outcrossing_hazard_summary.csv,1150,
-data\outcrossing_hazard_time_series.csv,13365,
-data\parametric_design_matrix.csv,25619,main_reproducibility
-data\rank_correlation_sensitivity.csv,597,
-data\round4_layered_capacity_bound_check.csv,472,
-data\round4_serviceability_parameter_sensitivity.csv,1171,
-data\round4_service_pressure_sensitivity.csv,564,
-data\round6_open_source_limit_analysis_benchmark.csv,2505,independent_numerical_audits
-data\round7_openseespy_layered_footing_fem.csv,771,independent_numerical_audits
-data\round9_calculix_3d_solid_fem.csv,931,independent_numerical_audits
-data\service_pressure_comparison_results.csv,83586,
-data\sharma2021_digitized_durability_retention_data.csv,1758,dataset_validation
-data\spatial_random_field_correlation_grid.csv,2843,optional_extensions
-data\spatial_random_field_parameters.csv,854,optional_extensions
-data\spatial_random_field_sensitivity.csv,1411,optional_extensions
-data\spatial_random_field_summary_metrics.csv,1411,optional_extensions
-data\stochastic_process_paths.csv,278005,
-data\submission_clean_bibliography_url_audit.csv,9026,
-data\submission_clean_supplement_manifest.csv,1335,
-data\tdr_framework_comparison_summary.csv,1025,optional_extensions
-data\tdr_scenario_definitions.csv,964,optional_extensions
-data\v4_acceptance_falsification_criteria.csv,745,decision_framework
-data\v4_calibration_holdout_partition.csv,1118,decision_framework
-data\v4_closed_form_capped_fem_comparison.csv,501,decision_framework
-data\v4_component_dataset_inventory.csv,1734,decision_framework
-data\v4_model_m0_m8_comparison.csv,928,decision_framework
-data\v4_validation_scale_v0_v6.csv,1072,decision_framework
-data\worked_design_alternatives.csv,718,
-figures\Figure 1 footing treated zone and weighting function.png,49395,
-figures\Figure 10 CalculiX 3D solid FEM settlement benchmark.png,92190,
-figures\Figure 2 degradation of biocementation parameters.png,184851,
-figures\Figure 3 time dependent bearing capacity.png,106567,
-figures\Figure 4 reliability index over service life.png,94545,
-figures\Figure 5 design map for treatment depth and degradation.png,91165,
-figures\Figure 6 Monte Carlo convergence.png,100024,
-figures\Figure 7 sensitivity ranking.png,59530,
-figures\Figure 8 open source limit analysis benchmark.png,124546,
-figures\Figure 9 OpenSeesPy FEM layered footing benchmark.png,80345,
-figures\figure_bayesian_updating_reliability.png,203857,
-figures\figure_bayesian_updating_reliability.svg,108403,
-figures\figure_beta_environmental_scenarios.png,270582,optional_extensions
-figures\figure_beta_vs_correlation_length.png,45794,
-figures\figure_caco3_to_eta_cb0.png,139357,
-figures\figure_chis_localization_sensitivity.png,99766,
-figures\figure_cyclic_beta_degradation.png,186309,optional_extensions
-figures\figure_cyclic_capacity_degradation.png,209444,optional_extensions
-figures\figure_cyclic_loading_histories.png,335913,optional_extensions
-figures\figure_dataset_degradation_validation.png,48219,
-figures\figure_dataset_load_settlement_validation.png,66326,
-figures\figure_discrete_hazard_survival_curves.png,68489,
-figures\figure_environmental_histories.png,371314,optional_extensions
-figures\figure_environment_to_lambda.png,48565,
-figures\figure_eta_environmental_scenarios.png,280504,optional_extensions
-figures\figure_hazard_rate_over_time.png,57577,
-figures\figure_kH_depth_benefit_fit.png,79741,
-figures\figure_kz_cpt_weighting_fit.png,92935,
-figures\figure_lambda_eff_comparison.png,73242,
-figures\figure_lifetime_pf_terminal_vs_outcrossing.png,38272,
-figures\figure_markov_environment_reliability_response.png,77956,
-figures\figure_modifier_identifiability_heatmap.png,162713,
-figures\figure_modifier_output_sensitivity.png,219792,
-figures\figure_modifier_profile_objectives.png,227058,
-figures\figure_modifier_update_workflow.png,53349,
-figures\figure_monotonic_terminal_equivalence.png,33585,
-figures\figure_nonmonotonic_sample_paths.png,219334,
-figures\figure_parameter_inference_workflow.png,71934,
-figures\figure_plastic_strain_accumulation.png,141143,
-figures\figure_qu_cdf_random_field_vs_average.png,56335,
-figures\figure_random_field_realizations.png,30178,
-figures\figure_sample_stochastic_reliability_paths.png,354947,
-figures\figure_service_pressure_beta_comparison.png,76427,
-figures\figure_service_pressure_pf_comparison.png,78457,
-figures\figure_spatial_correlation_heatmap.png,31820,optional_extensions
-figures\figure_tdr_framework_decision_diagram.png,69038,decision_framework
-figures\figure_terminal_vs_first_passage_reliability.png,106816,
-figures\figure_v4_validation_architecture.png,67250,decision_framework
-figures\figure_v4_validation_architecture.svg,53415,decision_framework
-sources\Kulkarni_2021_JETS_MICP_plate_load.pdf,991956,
-sources\kulkarni_digitization\kulkarni2021_figure6_load_settlement_crop.png,223339,dataset_validation
-sources\kulkarni_pages\page-13.png,319424,
-sources\kulkarni_pages\page-14.png,346147,
-sources\kulkarni_pages\page-15.png,378032,
-tables\Article 127 tables.xlsx,12511,
+file,description
+PACKAGE_CORRECTION_NOTE_GTENG-15832_20260609.txt,
+README.txt,
+README_dataset_level_validation.md,
+README_external_experimental_data_20260609.md,
+README_kH_kz_chis_site_updating.md,
+README_lower_demand_service_benchmark.md,
+README_micp_parameter_inference.md,
+README_modifier_calibration_identifiability.md,
+README_spatial_random_field.md,
+README_time_dependent_reliability_frameworks.md,
+Supplementary_Material_MICP_Shallow_Foundations_moved_from_main.docx,
+github_repository_url.txt,
+requirements.txt,
+public_literature_search_gap_report_20260609.md,
+README_AE_TRACEABILITY_COMPLETE_VALIDATION_20260609.md,
+AE_traceability_evidence_report_20260609.md,AE traceability evidence update added 2026-06-09
+README_AE_traceability_evidence_20260609.md,AE traceability evidence update added 2026-06-09
+code/ae_rejection_novelty_evidence_gate.py,
+code/bayesian_updating_reliability_demo.py,
+code/calculix_3d_solid_fem_benchmark.py,
+code/calibrate_kH_from_plate_load.py,
+code/calibrate_kz_from_cpt_profile.py,
+code/cyclic_loading_scenarios.py,
+code/cyclic_plastic_strain_accumulation.py,
+code/cyclic_reliability_sensitivity.py,
+code/dataset_level_degradation_calibration.py,
+code/dataset_level_load_settlement_calibration.py,
+code/discrete_hazard_reliability.py,
+code/environmental_history_degradation.py,
+code/environmental_reliability_sensitivity.py,
+code/environmental_scenarios_generator.py,
+code/external_public_data_inventory.py,
+code/first_passage_outcrossing_reliability.py,
+code/generate_ae_resubmission_figures.py,
+code/lifetime_outcrossing_hazard.py,
+code/lower_demand_service_benchmark.py,
+code/markov_environment_reliability.py,
+code/micp_bayesian_parameter_update_demo.py,
+code/micp_environment_to_lambda.py,
+code/micp_parameter_inference_maps.py,
+code/micp_treatment_schedule_to_caco3.py,
+code/modifier_calibration_guidance.py,
+code/modifier_identifiability_analysis.py,
+code/modifier_site_update_synthetic_example.py,
+code/nonmonotonic_environment_scenarios.py,
+code/open_source_limit_analysis_layered_footing.py,
+code/openseespy_layered_footing_fem.py,
+code/regenerate_figure1_treated_column.py,
+code/reproduce_article_127_benchmark.py,
+code/run_ae_resubmission_validation.py,
+code/service_pressure_comparison_maintext.py,
+code/spatial_random_field_cementation.py,
+code/spatial_random_field_reliability.py,
+code/stochastic_process_reliability_demo.py,
+code/time_dependent_reliability_frameworks.py,
+code/update_modifiers_from_site_data.py,
+code/v4_validation_architecture.py,
+code/regenerate_traceability_evidence_figures.py,AE traceability evidence update added 2026-06-09
+code/traceability_figures_and_tables.py,AE traceability evidence update added 2026-06-09
+code/generate_ae_traceability_figures.py,AE traceability evidence update added 2026-06-09
+data/ae_parameter_evidence_matrix.csv,
+data/ae_rejection_evidence_gate.csv,
+data/ae_rejection_novelty_evidence_gate_summary.json,
+data/ae_resubmission_validation_manifest.json,
+data/bayesian_update_design_decisions.csv,
+data/bayesian_update_observations.csv,
+data/bayesian_update_posterior_summary.csv,
+data/bayesian_update_prior_posterior_samples.csv,
+data/bayesian_update_reliability_trajectories.csv,
+data/benchmark_acceptance_criteria_status.csv,
+data/benchmark_lhs_rank_robustness.csv,
+data/benchmark_model_form_comparison_m0_m4.csv,
+data/benchmark_model_form_time_history_m0_m4.csv,
+data/benchmark_parameter_audit_strengthened.csv,
+data/benchmark_summary.json,
+data/calibrated_degradation_priors.csv,
+data/chis_sensitivity_summary.csv,
+data/component_calibration_metrics.csv,
+data/cyclic_accumulation_parameters.csv,
+data/cyclic_damage_summary.csv,
+data/cyclic_loading_histories.csv,
+data/cyclic_loading_scenarios_table.csv,
+data/cyclic_parameter_sensitivity.csv,
+data/cyclic_scenario_reliability.csv,
+data/dataset_level_degradation_fitted_parameters.csv,
+data/dataset_level_degradation_metrics.csv,
+data/dataset_level_load_settlement_fitted_parameters.csv,
+data/dataset_level_load_settlement_metrics.csv,
+data/decision_bayesian_updating_route.csv,
+data/decision_permanent_credit_overestimation_index.csv,
+data/decision_reliability_target_inversion.csv,
+data/decision_thin_layer_capping_rule.csv,
+data/deterministic_time_history.csv,
+data/environmental_degradation_summary.csv,
+data/environmental_driver_screening_proxies.csv,
+data/environmental_histories.csv,
+data/environmental_lambda_equivalent.csv,
+data/environmental_scenario_reliability.csv,
+data/environmental_scenarios_table.csv,
+data/external_dataset_to_AE_requirement_map_20260609.csv,
+data/external_quantitative_validation.csv,
+data/external_quantitative_validation_round3.csv,
+data/external_trend_validation.csv,
+data/external_validation_candidate_sources.csv,
+data/external_validation_component_architecture.csv,
+data/external_validation_evidence_hierarchy.csv,
+data/external_validation_falsification_tests.csv,
+data/first_passage_times.csv,
+data/hazard_survival_table.csv,
+data/kH_kz_chis_calibration_summary.csv,
+data/kH_profile_objective.csv,
+data/kulkarni2021_digitized_plate_load_data.csv,
+data/kulkarni2021_square_120mm_treated.csv,
+data/kulkarni2021_square_120mm_untreated.csv,
+data/kulkarni2021_table6_bcr_srf_summary.csv,
+data/kz_cpt_profile_objective.csv,
+data/limiting_case_verification.csv,
+data/lower_demand_maintext_table.csv,
+data/lower_demand_service_results.csv,
+data/markov_environment_paths.csv,
+data/micp_bayesian_parameter_update_demo.csv,
+data/micp_environment_to_lambda_cases.csv,
+data/micp_literature_parameter_links.csv,
+data/micp_measurable_inputs_mapping.csv,
+data/micp_parameter_inference_summary.csv,
+data/model_hierarchy_ablation.csv,
+data/modifier_calibration_identifiability_table.csv,
+data/modifier_calibration_workflow_table.csv,
+data/modifier_identifiability_fit_parameters.csv,
+data/modifier_identifiability_summary.csv,
+data/modifier_output_sensitivity_curves.csv,
+data/modifier_parameter_correlation_rich_data.csv,
+data/modifier_parameter_correlation_sparse_data.csv,
+data/modifier_profile_likelihood.csv,
+data/modifier_sensitivity_matrix.csv,
+data/monte_carlo_convergence.csv,
+data/monte_carlo_reliability_time_history.csv,
+data/multilevel_beta3_thresholds.csv,
+data/multilevel_cross_validation_holdout_summary.csv,
+data/multilevel_degradation_model_selection.csv,
+data/multilevel_model_form_comparison_m0_m7.csv,
+data/open_source_limit_analysis_benchmark.csv,
+data/openseespy_layered_footing_fem.csv,
+data/outcrossing_environment_scenarios.csv,
+data/outcrossing_hazard_summary.csv,
+data/outcrossing_hazard_time_series.csv,
+data/parametric_design_matrix.csv,
+data/public_external_experimental_data_inventory_20260609.csv,
+data/q1_novelty_positioning_gate.csv,
+data/rank_correlation_sensitivity.csv,
+data/round4_layered_capacity_bound_check.csv,
+data/round4_service_pressure_sensitivity.csv,
+data/round4_serviceability_parameter_sensitivity.csv,
+data/round6_open_source_limit_analysis_benchmark.csv,
+data/round7_openseespy_layered_footing_fem.csv,
+data/round9_calculix_3d_solid_fem.csv,
+data/service_pressure_comparison_results.csv,
+data/sharma2021_digitized_durability_retention_data.csv,
+data/spatial_random_field_correlation_grid.csv,
+data/spatial_random_field_parameters.csv,
+data/spatial_random_field_sensitivity.csv,
+data/spatial_random_field_summary_metrics.csv,
+data/stochastic_process_paths.csv,
+data/submission_clean_bibliography_url_audit.csv,
+data/submission_clean_full_literature_positioning_matrix.csv,
+data/submission_clean_supplement_file_index.csv,
+data/submission_clean_supplement_manifest.csv,
+data/tdr_framework_comparison_summary.csv,
+data/tdr_scenario_definitions.csv,
+data/v4_acceptance_falsification_criteria.csv,
+data/v4_calibration_holdout_partition.csv,
+data/v4_closed_form_capped_fem_comparison.csv,
+data/v4_component_dataset_inventory.csv,
+data/v4_model_m0_m8_comparison.csv,
+data/v4_validation_scale_v0_v6.csv,
+data/worked_design_alternatives.csv,
+data/direct_bearing_degradation_evidence_20260609.csv,
+data/parameter_dataset_traceability_matrix_20260609.csv,AE traceability evidence update added 2026-06-09
+data/reviewer_request_completion_matrix_20260609.csv,
+data/validation_gap_closure_matrix_20260609.csv,
+data/parameter_dataset_scope_traceability_20260609.csv,AE traceability evidence update added 2026-06-09
+data/AE_requirement_closure_status_20260609.csv,
+data/traceability_numeric_support_20260609.csv,AE traceability evidence update added 2026-06-09
+data/traceability_validation_status_20260609.csv,AE traceability evidence update added 2026-06-09
+data/ae_requirement_dataset_support_matrix_20260609.csv,
+data/remaining_V5_gap_register_20260609.csv,AE traceability evidence update added 2026-06-09
+data/degradation_retention_anchor_points_20260609.csv,
+figures/Figure 1 footing treated zone and weighting function.png,
+figures/Figure 10 CalculiX 3D solid FEM settlement benchmark.png,
+figures/Figure 2 AE degradation component envelope.png,
+figures/Figure 2 degradation of biocementation parameters.png,
+figures/Figure 3 time dependent bearing capacity.png,
+figures/Figure 4 AE model hierarchy ablation.png,
+figures/Figure 4 reliability index over service life.png,
+figures/Figure 5 AE V4 design boundary.png,
+figures/Figure 5 design map for treatment depth and degradation.png,
+figures/Figure 6 Monte Carlo convergence.png,
+figures/Figure 7 sensitivity ranking.png,
+figures/Figure 8 open source limit analysis benchmark.png,
+figures/Figure 9 OpenSeesPy FEM layered footing benchmark.png,
+figures/figure_bayesian_updating_reliability.png,
+figures/figure_bayesian_updating_reliability.svg,
+figures/figure_beta_environmental_scenarios.png,
+figures/figure_beta_vs_correlation_length.png,
+figures/figure_caco3_to_eta_cb0.png,
+figures/figure_chis_localization_sensitivity.png,
+figures/figure_cyclic_beta_degradation.png,
+figures/figure_cyclic_capacity_degradation.png,
+figures/figure_cyclic_loading_histories.png,
+figures/figure_dataset_degradation_validation.png,
+figures/figure_dataset_load_settlement_validation.png,
+figures/figure_discrete_hazard_survival_curves.png,
+figures/figure_environment_to_lambda.png,
+figures/figure_environmental_histories.png,
+figures/figure_eta_environmental_scenarios.png,
+figures/figure_hazard_rate_over_time.png,
+figures/figure_jgge_predesign_workflow.png,
+figures/figure_jgge_predesign_workflow.svg,
+figures/figure_kH_depth_benefit_fit.png,
+figures/figure_kz_cpt_weighting_fit.png,
+figures/figure_lambda_eff_comparison.png,
+figures/figure_lifetime_pf_terminal_vs_outcrossing.png,
+figures/figure_markov_environment_reliability_response.png,
+figures/figure_modifier_identifiability_heatmap.png,
+figures/figure_modifier_output_sensitivity.png,
+figures/figure_modifier_profile_objectives.png,
+figures/figure_modifier_update_workflow.png,
+figures/figure_monotonic_terminal_equivalence.png,
+figures/figure_nonmonotonic_sample_paths.png,
+figures/figure_parameter_inference_workflow.png,
+figures/figure_plastic_strain_accumulation.png,
+figures/figure_qu_cdf_random_field_vs_average.png,
+figures/figure_random_field_realizations.png,
+figures/figure_sample_stochastic_reliability_paths.png,
+figures/figure_service_pressure_beta_comparison.png,
+figures/figure_service_pressure_pf_comparison.png,
+figures/figure_spatial_correlation_heatmap.png,
+figures/figure_tdr_framework_decision_diagram.png,
+figures/figure_terminal_vs_first_passage_reliability.png,
+figures/figure_v4_validation_architecture.png,
+figures/figure_v4_validation_architecture.svg,
+figures/figure_traceability_evidence_map.png,AE traceability evidence update added 2026-06-09
+figures/figure_reviewer_completion_status.png,
+figures/figure_kulkarni_bcr_traceability.png,AE traceability evidence update added 2026-06-09
+figures/figure_degradation_retention_traceability.png,AE traceability evidence update added 2026-06-09
+figures/figure_validation_gap_closure_map.png,
+figures/figure_AE_requirement_traceability_matrix.png,AE traceability evidence update added 2026-06-09
+figures/Figure S11 AE evidence traceability matrix.tif,AE traceability evidence update added 2026-06-09
+figures/Figure S12 direct MICP PLT BCR evidence.png,AE traceability evidence update added 2026-06-09
+figures/Figure S13 degradation_retention_evidence.png,AE traceability evidence update added 2026-06-09
+figures/Figure S14 validation_claim_status_ladder.png,AE traceability evidence update added 2026-06-09
+figures/Figure S11 AE-requested traceability map.png,AE traceability evidence update added 2026-06-09
+figures/Figure S12 component validation status ladder.png,AE traceability evidence update added 2026-06-09
+figures/Figure S13 normalized PLT load-settlement anchor.png,AE traceability evidence update added 2026-06-09
+figures/Figure S14 degradation retention anchors.png,AE traceability evidence update added 2026-06-09
+figures/Figure S15 data-to-parameter traceability architecture.png,AE traceability evidence update added 2026-06-09
+reproduced_outputs/GTENG_15832_regeneration_log_20260609.txt,
+reproduced_outputs/deterministic_time_history_reproduced.csv,
+reproduced_outputs/reproduction_check.json,
+sources/Kulkarni_2021_JETS_MICP_plate_load.pdf,
+tables/Article 127 tables.xlsx,
+sources/kulkarni_digitization/kulkarni2021_figure6_load_settlement_crop.png,
+sources/kulkarni_pages/page-13.png,
+sources/kulkarni_pages/page-14.png,
+sources/kulkarni_pages/page-15.png,

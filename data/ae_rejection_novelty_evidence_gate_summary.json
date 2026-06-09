@@ -1,0 +1,31 @@
+{
+  "status": "CONDITIONAL_RESUBMISSION_ONLY_NOT_Q1_HIGH_CLOSED",
+  "novelty_status": "NOVELTY_DEFENDABLE_ONLY_AS_MICP_RELIABILITY_PREDESIGN_AND_UPDATE_WORKFLOW",
+  "ae_evidence_status": "AE_CORE_DATA_GAP_PARTIALLY_REDUCED_BUT_NOT_CLOSED",
+  "q1_high_status": "NOT_Q1_HIGH_CLOSED",
+  "strongest_novelty_claim": "a falsifiable reliability pre-design and updating workflow that translates MICP component durability and initial footing evidence into beta(t), pf(t), service-pressure limits, inspection and retreatment decisions",
+  "claims_to_remove_or_downgrade": [
+    "universal calibrated degradation law for MICP-treated shallow foundations",
+    "direct experimental validation of degraded MICP footing performance",
+    "identified localization fragility factor",
+    "experimentally calibrated treated-zone contribution function",
+    "fully supported cohesion/friction degradation split"
+  ],
+  "minimum_editorial_reframe": "resubmit as a V4 component-constrained pre-design method, not as a V5 experimentally validated design model",
+  "external_support_added_to_gate": {
+    "source": "Ahenkorah et al. 2023, Journal of Rock Mechanics and Geotechnical Engineering",
+    "doi": "10.1016/j.jrmge.2022.08.007",
+    "basis": "open-access 40-test UCS durability study for MICP/EICP treated sands; supports degradation concern but not footing-scale calibration"
+  },
+  "ae_issue_count": 4,
+  "ae_issues_closed_for_q1_high": 0,
+  "ae_issues_reduced": 4,
+  "novelty_rows": 5,
+  "novelty_pass_or_partial_rows": 4,
+  "required_before_q1_high": [
+    "direct degraded MICP footing or plate-load data, or equivalent project-specific calibration",
+    "triaxial/direct-shear data to separate cb0 from Delta tan phi or a conservative Delta tan phi = 0 design path",
+    "treated-depth data or calibrated FEM/limit-analysis protocol for kH/kz",
+    "post-peak/localization evidence or explicit chi_s sensitivity-only status"
+  ]
+}

@@ -1,0 +1,6 @@
+,Kulkarni PLT,PRJ-2453/ Nafisi,de Rezende triaxial,Sharma durability,Ribeiro-Gomez dissolution,Tao bearing+durability,Pusadkar footing,Konstantinou/ Sarkis,Field MICP/ EICP
+c_prime/phi_prime,1.5,3.0,2.5,1.0,1.0,1.0,0.5,1.0,0.5
+degradation_clock,0.5,0.5,0.5,3.0,3.0,2.5,0.0,1.0,2.0
+treated_zone,3.0,0.5,0.5,0.0,0.0,1.0,2.0,0.5,1.5
+localization,0.5,1.0,1.0,1.0,0.5,1.0,0.0,3.0,0.5
+time_dependent_outputs,2.5,2.0,1.5,2.5,2.0,2.5,1.5,1.5,1.5

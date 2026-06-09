@@ -1,17 +1,41 @@
-Time-Dependent Reliability of Shallow Foundations on Degrading Biocemented Sand
+# Time-Dependent Reliability of Shallow Foundations on Degrading Biocemented Sand
 
-This repository contains the public supplementary package for the manuscript. It includes reproducible Python scripts, CSV data, generated figures, the table workbook, benchmark checks, sensitivity studies, validation-architecture files, and the supplementary DOCX.
+This repository contains the reproducible benchmark data, scripts, figures, and
+tables for the article 127 resubmission package.
 
-Run the baseline reproduction check from the repository root:
+## GTENG-15832 traceability update
+
+The repository was updated from the corrected package:
+
+`GTENG-15832_traceability_evidence_upload_package_20260609/GTENG-15832_corrected_package_20260609`
+
+The 2026-06-09 update adds traceability-first validation material requested in
+the editorial review cycle, including:
+
+- AE requirement closure and traceability matrices;
+- dataset-level degradation and load-settlement calibration evidence;
+- external quantitative validation and residual-gap registers;
+- traceability, validation-status, and component-architecture figures;
+- reproducible scripts for the AE resubmission validation and traceability
+  figures.
+
+The validation boundary remains evidence-bounded: the package supports
+component-constrained indirect validation and does not claim direct degraded
+MICP footing validation.
+
+## Reproduce
+
+Run from the repository root:
+
+```bash
 python code/reproduce_article_127_benchmark.py
+python code/run_ae_resubmission_validation.py
+python code/generate_ae_resubmission_figures.py
+python code/regenerate_traceability_evidence_figures.py
+```
 
-Main folders:
-- code: Python scripts for benchmark reproduction, sensitivity analysis, validation checks, Bayesian updating, environmental scenarios, and numerical audit examples.
-- data: CSV and JSON inputs/outputs used by the scripts and tables.
-- figures: generated manuscript and supplementary figures.
-- tables: workbook with article tables.
-- supplementary: supplementary DOCX file.
+The scripts write outputs to `reproduced_outputs` and do not delete source data.
 
-Public repository: https://github.com/gabrielmontufar/article-127-biocemented-foundation-reliability
+## Public Repository
 
-Supplementary material: https://raw.githubusercontent.com/gabrielmontufar/article-127-biocemented-foundation-reliability/master/supplementary/Supplementary_Material_MICP.docx
+https://github.com/gabrielmontufar/article-127-biocemented-foundation-reliability

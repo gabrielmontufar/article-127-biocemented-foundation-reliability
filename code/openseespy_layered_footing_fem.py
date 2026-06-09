@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
 import math
@@ -12,13 +12,13 @@ import pandas as pd
 import openseespy.opensees as ops
 
 
-BASE = Path(__file__).resolve().parents[1]
-SUPP = BASE
+BASE = Path(__file__).resolve().parents[3]
+SUPP = BASE / "04 Supplemental data and code" / "Supplementary files"
 DATA = SUPP / "data"
 FIGS = SUPP / "figures"
 CODE = SUPP / "code"
-AUDIT = BASE / "audits"
-UPLOAD = BASE
+AUDIT = BASE / "05 Journal selection and audits"
+UPLOAD = BASE / "00 Files for journal upload"
 
 
 B = 2.0
@@ -227,3 +227,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

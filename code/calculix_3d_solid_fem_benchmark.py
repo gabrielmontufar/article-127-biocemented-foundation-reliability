@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import math
 import os
@@ -13,8 +13,8 @@ import numpy as np
 import pandas as pd
 
 
-ARTICLE_ROOT = Path(__file__).resolve().parents[1]
-SUPP_ROOT = ARTICLE_ROOT
+ARTICLE_ROOT = Path(__file__).resolve().parents[3]
+SUPP_ROOT = ARTICLE_ROOT / "04 Supplemental data and code" / "Supplementary files"
 DATA_DIR = SUPP_ROOT / "data"
 FIG_DIR = SUPP_ROOT / "figures"
 CODE_DIR = SUPP_ROOT / "code"
@@ -358,3 +358,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

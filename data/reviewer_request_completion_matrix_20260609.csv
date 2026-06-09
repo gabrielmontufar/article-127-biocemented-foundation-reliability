@@ -1,0 +1,7 @@
+reviewer_request,model_target,completion_status,what_is_now_supported_by_data,remaining_boundary
+Cohesion/friction degradation,component parameterization,bounded/calibrated,PRJ-2453/de Rezende for strength split; Sharma/Ribeiro for retention,No direct paired degraded-footing c-phi dataset
+Treated-zone contribution,initial and geometry-limited contribution,direct short-term + bounded,Kulkarni PLT; Pusadkar and field analogues; limit/FEM checks,No clean H/B grid with identical MICP and degradation protocol
+Localization fragility,post-peak/localization modifier,sensitivity/falsification only,fracture and microstructural proxies; chi_s sensitivity,No direct footing localization dataset
+Figure 2 time capacity,degradation scenarios,scenario-bounded,durability/dissolution and bearing-retention evidence,Not a universal calendar-time law
+Figure 4 depth-degradation map,screening design map,bounded screening,PLT + degradation + numerical hierarchy,Not a final-design universal chart
+Experimental comparison/calibration,component calibration and validation,auditable,digitized load-settlement and retention metrics,No single integrated V5 campaign

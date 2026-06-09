@@ -1,0 +1,7 @@
+component,model_items,evidence_sources,support_score_0_to_3,support_status,remaining_gap
+c-prime/phi-prime increments,"c_b0_prime, Delta_tan_phi",DesignSafe PRJ-2453; Nafisi et al.; de Rezende; UCS compilations,3.0,bounded/calibrated,site element tests for final design
+degradation retention,"eta(t), eta_r, lambda_E",Sharma; Ribeiro and Gomez; Tao; Zhang; Ji,3.0,calibrated/bounded,site environmental history
+treated-zone contribution,"chi_H, k_H, k_z",Kulkarni PLT; Pusadkar; Martin EICP analogue; numerical audits,2.5,short-term PLT calibrated; H/B bounded,no full degraded H/B matrix
+localization fragility,"chi_s, r_s",Konstantinou fracture; Sarkis microstructure,1.5,sensitivity/falsification only,no direct post-peak footing data
+time-dependent figures,"q_u(t), FS map, beta(t)",all component streams + scripts,2.5,scenario prediction bounded by data,no direct degraded-footing V5
+globality claim,validation classification,component evidence; no integral public dataset,2.0,universal-form/local parameters,no universal constants

@@ -1,0 +1,31 @@
+﻿GTENG-15832 evidence regeneration log 2026-06-09T06:26:30.2250572-05:00
+
+--- compileall ---
+
+--- run_ae_resubmission_validation ---
+{
+  "generated_at_utc": "2026-06-09T11:26:32.952833+00:00",
+  "root": "C:\\Users\\gjm31\\OneDrive\\Escritorio\\articulos up\\119 avo art\\Entrega International Journal of Geotechnical Engineering 20260515\\07 Article 127 GTENG-15832 JGGE resubmission 20260609\\04 Supplemental data and code\\Supplementary files",
+  "outputs": [
+    "ae_parameter_evidence_matrix.csv",
+    "calibrated_degradation_priors.csv",
+    "component_calibration_metrics.csv",
+    "model_hierarchy_ablation.csv"
+  ],
+  "validation_boundary": "V4 component-constrained indirect validation; V5 direct degraded-footing validation is not claimed."
+}
+
+--- generate_ae_resubmission_figures ---
+Generated AE resubmission figures in:
+C:\Users\gjm31\OneDrive\Escritorio\articulos up\119 avo art\Entrega International Journal of Geotechnical Engineering 20260515\07 Article 127 GTENG-15832 JGGE resubmission 20260609\04 Supplemental data and code\Supplementary files\figures
+C:\Users\gjm31\OneDrive\Escritorio\articulos up\119 avo art\Entrega International Journal of Geotechnical Engineering 20260515\07 Article 127 GTENG-15832 JGGE resubmission 20260609\02 Figures
+
+--- reproduce_article_127_benchmark ---
+{
+  "status": "reproduced",
+  "max_absolute_difference_against_reference": {
+    "q_u_bdc_kpa": 2.2737367544323206e-13,
+    "factor_of_safety": 4.440892098500626e-16,
+    "settlement_index": 1.0408340855860843e-16
+  }
+}

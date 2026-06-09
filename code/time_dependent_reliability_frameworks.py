@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from pathlib import Path
 from statistics import NormalDist
@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parents[1]
-SUPP = ROOT
+ROOT = Path(__file__).resolve().parents[3]
+SUPP = ROOT / "04 Supplemental data and code" / "Supplementary files"
 DATA = SUPP / "data"
 FIGS = SUPP / "figures"
 NORM = NormalDist()
@@ -309,3 +309,5 @@ not site-calibrated environmental histories.
 
 if __name__ == "__main__":
     main()
+
+

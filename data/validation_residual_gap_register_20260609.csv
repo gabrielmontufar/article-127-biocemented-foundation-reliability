@@ -1,0 +1,5 @@
+gap_id,gap,why_it_matters,risk_control
+G1,"No public campaign combines MICP footing/PLT, controlled degradation, paired c-prime/phi-prime measurement, and localization observation in one dataset.",This is the only route to direct V5 degraded-footing validation.,Do not claim direct V5; use component-calibrated validation and local updating.
+G2,"No clean public H/B matrix with same soil, same protocol, multiple treated depths, degradation, and repeated footing tests.",The treated-zone weighting function cannot be a universal experimentally identified H/B law.,Use capped H/B screening and require PLT/FEM/limit-analysis calibration for final design.
+G3,No direct post-peak degraded-footing localization dataset with DIC/tomography.,chi_s cannot be calibrated as a physical constant for footings.,Treat chi_s as sensitivity/falsification/no-credit trigger.
+G4,"Environmental degradation depends on chemistry, hydraulic gradients, temperature, cycles, biology, and exposure history.",A universal calendar-year degradation rate would overclaim.,Use exposure-conditioned lambda_E and Bayesian updating.
